@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "200 Objects Infants EEG",
-  "description": "This dataset comprises electroencephalography (EEG) recordings from human infants viewing 200 object images presented in rapid visual streams. The study investigates neural responses to visual object categories in developing brains, providing insights into early visual processing and object recognition mechanisms in infancy. Data include raw EEG recordings, preprocessed derivatives, and representational dissimilarity matrices derived from the recordings.",
-  "methods_description": "EEG data were collected while infants viewed 200 object images presented in rapid visual streams. Stimulus presentation was controlled using PsychoPy (version 2023.3.1). Data preprocessing and epoching were performed using FieldTrip, with representational similarity analysis (RSA) conducted using CosmomvPA toolbox. Analysis scripts are provided for preprocessing, RDM generation, statistical testing, and figure reproduction.",
+  "description": "This dataset comprises electroencephalography (EEG) recordings from human infants viewing 200 object images presented in rapid visual streams. The study investigates neural responses to visual object categories in developing brains, providing insights into early visual processing and object recognition mechanisms in infancy. Raw EEG data are accompanied by preprocessing scripts and representational similarity analysis code for reproducible analysis.",
+  "methods_description": "EEG data were collected while infants viewed 200 object images presented in rapid visual streams. Stimulus presentation was controlled using PsychoPy (version 2023.3.1). Data preprocessing, epoching, and analysis were performed using MATLAB-based toolboxes (FieldTrip and CoSMoMVPA), including representational similarity analysis (RSA) to examine neural representations of object categories.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -30,10 +30,10 @@
       "term": "representational similarity analysis"
     },
     {
-      "term": "rapid visual streams"
+      "term": "neural representations"
     },
     {
-      "term": "neural responses"
+      "term": "rapid visual presentation"
     }
   ],
   "related_identifiers": [
