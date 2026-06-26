@@ -1,0 +1,30 @@
+{
+  "version": "2.0",
+  "dataset_id": "on005106",
+  "source": "openneuro",
+  "source_id": "ds005106",
+  "title": "200 Objects Infants EEG",
+  "authors": {
+    "Tijl Grootswagers": {},
+    "Genevieve Quek": {},
+    "Zhen Zeng": {},
+    "Manuel Varlet": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds005106.v1.5.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.10.0",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ]
+}
