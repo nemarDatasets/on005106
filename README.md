@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on005106-blue)](https://doi.org/10.82901/nemar.on005106)
+
 Data and code for the paper:
 Tijl Grootswagers, Genevieve Quek, Zhen Zeng, & Manuel Varlet. 2025. “Human Infant EEG Recordings for 200 Object Images Presented in Rapid Visual Streams.” Scientific Data. https://doi.org/10.1038/s41597-025-04744-z
 
