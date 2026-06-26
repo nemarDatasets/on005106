@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "200 Objects Infants EEG",
+  "description": "This dataset comprises electroencephalography (EEG) recordings from human infants viewing 200 object images presented in rapid visual streams. The study investigates neural responses to visual object categories in developing brains, providing insights into early visual processing and object recognition mechanisms in infancy. Data include raw EEG recordings, preprocessed derivatives, and representational dissimilarity matrices derived from the recordings.",
+  "methods_description": "EEG data were collected while infants viewed 200 object images presented in rapid visual streams. Stimulus presentation was controlled using PsychoPy (version 2023.3.1). Data preprocessing and epoching were performed using FieldTrip, with representational similarity analysis (RSA) conducted using CosmomvPA toolbox. Analysis scripts are provided for preprocessing, RDM generation, statistical testing, and figure reproduction.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -14,12 +16,27 @@
     "Zhen Zeng": {},
     "Manuel Varlet": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds005106.v1.5.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "infant development"
+    },
+    {
+      "term": "visual object recognition"
+    },
+    {
+      "term": "representational similarity analysis"
+    },
+    {
+      "term": "rapid visual streams"
+    },
+    {
+      "term": "neural responses"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "10.31234/osf.io/dzrkq",
       "identifier_type": "DOI",
@@ -39,15 +56,20 @@
       "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005106",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005106.v1.5.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "13.5 GB (430 files)"
   ],
   "formats": [
     ".fdt",
@@ -59,29 +81,8 @@
     ".py",
     ".set",
     ".tsv",
-    ".xdf"
+    ".xdf",
+    ".yml"
   ],
-  "description": "This dataset comprises electroencephalography (EEG) recordings from human infants viewing 200 object images presented in rapid visual streams. The study investigates infant neural responses to visual object categories using representational similarity analysis, providing insights into early visual object processing and categorical perception in infancy.",
-  "methods_description": "EEG data were collected while infants viewed 200 object images presented in rapid visual streams. Data preprocessing and epoching were performed using custom MATLAB scripts with FieldTrip and CosMoMVPA toolboxes. Representational dissimilarity matrices (RDMs) were computed for individual subjects, followed by statistical analysis of RSA correlations.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "infants"
-    },
-    {
-      "term": "visual perception"
-    },
-    {
-      "term": "object recognition"
-    },
-    {
-      "term": "representational similarity analysis"
-    },
-    {
-      "term": "rapid visual streams"
-    }
-  ],
-  "source_hash": "60d1273dd144198d6920aef1d2e3e3d72b46730fe12337bdf782426dc30594ec"
+  "source_hash": "5190a3ac5518158fef887826b09b683e63456aaf65f71b5d791395e2c43534ca"
 }
